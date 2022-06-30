@@ -21,6 +21,10 @@ public List<Car> getGarage() {
     return garage;
 }
 
+public void set(int index, Car car){
+    garage.set(index, car);
+}
+
 public void setGarage(List<Car> garage) {
     this.garage = garage;
 }
